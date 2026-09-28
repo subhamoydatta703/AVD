@@ -7,7 +7,9 @@ authors = [
     { name = "Subhamoy Datta", email = "subhamoydatta99@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "yt-dlp>=2026.8.19",
+]
 
 [project.scripts]
 avd = "avd:main"
