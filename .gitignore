@@ -54,6 +54,8 @@ htmlcov/
 # Tooling
 .ruff_cache/
 .mypy_cache/
+.uv-cache/
+.venv-indic/
 
 # Media & Downloads
 assets/
@@ -68,4 +70,10 @@ output/
 *.aac
 *.flac
 *.m4a
+
+# ML Model Files
+*.ftz
+*.bin
+*.pt
+*.onnx
 
